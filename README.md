@@ -57,7 +57,7 @@ The application runs entirely inside Docker containers to ensure isolation and s
 ### Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/owasp-top10-python-lab.git
+git clone https://github.com/sverma98015-commits/owasp-top10-python-lab.git
 
 cd owasp-top10-python-lab
 
@@ -246,7 +246,7 @@ Authorization decisions are enforced server-side rather than trusting user-contr
 
 ---
 
-# 🛡️ Security Principles Applied
+#  Security Principles Applied
 
 * Parameterized Queries
 * Output Encoding
@@ -281,7 +281,7 @@ owasp-top10-python-lab/
 
 ---
 
-## 👨‍💻 Ankit Kumar
+##  Ankit Kumar
 
 Cybersecurity enthusiast focused on:
 
