@@ -9,7 +9,8 @@
 A containerized web security lab built with **Python (Flask)** and **Docker** to demonstrate real-world web application vulnerabilities from the OWASP Top 10 and their corresponding secure code remediations.
 
 This project focuses on understanding how vulnerabilities occur, reproducing attacks in a controlled environment, and implementing industry-standard defensive fixes.
-![Docker Lab Running](screenshots/5.jpg)
+
+!owasp-top10-python-lab/screenshots/5.jpg
 
 ---
 
