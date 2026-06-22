@@ -10,7 +10,7 @@ A containerized web security lab built with **Python (Flask)** and **Docker** to
 
 This project focuses on understanding how vulnerabilities occur, reproducing attacks in a controlled environment, and implementing industry-standard defensive fixes.
 
-![Docker Running](screenshots/5.JPG)
+![Docker Running](5.JPG)
 ---
 
 
