@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile</title>
+</head>
+<body style="font-family: Arial; margin: 40px;">
+    <h2>Account Profile Dashboard</h2>
+    <hr>
+    <p><strong>Account ID:</strong> {{ user[0] }}</p>
+    <p><strong>Username:</strong> {{ user[1] }}</p>
+    <p><strong>Account Authority Role:</strong> {{ user[2] }}</p>
+    <p style="color: red;"><strong>Account Private Token (Flag):</strong> {{ user[3] }}</p>
+    <br>
+    <a href="/">Back to Dashboard</a>
+</body>
+</html>
