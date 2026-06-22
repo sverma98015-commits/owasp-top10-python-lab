@@ -1,4 +1,4 @@
-# 🔐 OWASP Top 10 Vulnerability Lab & Secure Code Patches
+#  OWASP Top 10 Vulnerability Lab & Secure Code Patches
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
@@ -13,7 +13,7 @@ This project focuses on understanding how vulnerabilities occur, reproducing att
 ---
 
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 * Understand common OWASP Top 10 vulnerabilities
 * Practice manual exploitation techniques
@@ -24,7 +24,7 @@ This project focuses on understanding how vulnerabilities occur, reproducing att
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```text
 ┌─────────────┐
@@ -46,7 +46,7 @@ The application runs entirely inside Docker containers to ensure isolation and s
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -72,7 +72,7 @@ http://localhost:5000
 
 ---
 
-# 📑 Vulnerability Matrix
+# Vulnerability Matrix
 
 | Vulnerability | OWASP Category                 | Severity | Status |
 | ------------- | ------------------------------ | -------- | ------ |
@@ -82,7 +82,7 @@ http://localhost:5000
 
 ---
 
-# 1️⃣ SQL Injection (SQLi)
+#  SQL Injection (SQLi)
 
 ### OWASP Category
 
@@ -90,7 +90,7 @@ A03:2021 – Injection
 
 ### Severity
 
-🔴 Critical (CVSS 8.5)
+ Critical (CVSS 8.5)
 
 ### Attack Scenario
 
