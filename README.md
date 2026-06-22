@@ -4,7 +4,7 @@
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue)
 ![Security](https://img.shields.io/badge/Cybersecurity-OWASP%20Top%2010-red)
-![License](https://img.shields.io/badge/License-MIT-green)
+
 
 A containerized web security lab built with **Python (Flask)** and **Docker** to demonstrate real-world web application vulnerabilities from the OWASP Top 10 and their corresponding secure code remediations.
 
