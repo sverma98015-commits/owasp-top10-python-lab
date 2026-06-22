@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OWASP Top 10 Portfolio Lab</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background-color: #f4f6f9; color: #333; }
+        .card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #2c3e50; }
+        h2 { color: #2980b9; }
+        input[type="text"], input[type="password"] { padding: 8px; width: 250px; margin-bottom: 10px; display: block; }
+        input[type="submit"] { background: #2980b9; color: white; border: none; padding: 10px 15px; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>OWASP Top 10 Vulnerability Dashboard</h1>
+    <p>Use this controlled sandbox environment to execute and document your exploits.</p>
+    <hr>
+    <div class="card">
+        <h2>1. SQL Injection (Authentication Bypass)</h2>
+        <form action="/vulnerable/sqli" method="POST">
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="' OR '1'='1">
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="anything">
+            <input type="submit" value="Exploit Login">
+        </form>
+    </div>
+    <div class="card">
+        <h2>2. Reflected XSS (Session/Token Hijacking)</h2>
+        <form action="/vulnerable/xss" method="GET">
+            <label>Search the Site:</label>
+            <input type="text" name="search" placeholder="&lt;script&gt;alert(document.cookie)&lt;/script&gt;">
+            <input type="submit" value="Execute XSS">
+        </form>
+    </div>
+    <div class="card">
+        <h2>3. Insecure Direct Object Reference (IDOR)</h2>
+        <p>Simulate logging in as Alice (ID: 2). Can you view Bob's account (ID: 3)?</p>
+        <a href="/vulnerable/idor?id=2" target="_blank"><button style="padding: 10px;">View My Profile (ID: 2)</button></a>
+    </div>
+</body>
+</html>
