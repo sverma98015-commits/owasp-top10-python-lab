@@ -106,9 +106,6 @@ The login endpoint directly concatenates user-controlled input into a SQL query.
 
 Authentication bypass occurs because the resulting SQL statement evaluates as TRUE.
 
-### Screenshot
-
-![SQL Injection Attack](assets/sqli-demo.png)
 
 ---
 
